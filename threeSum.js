@@ -38,7 +38,7 @@ var threeSum = function(nums) {
     // we can be certain we're looking at negative integers.
     // In which case, we want to find two integers further down the array, such that all three integers added together equals 0.
     //
-    // Now we solve this with two pointers, which is how we would solve Two Sum II.
+    // Now we solve this with two pointers.
     // We use the sorted nature of the array to hone in on values that will equal zero.
     //
     // Start the left pointer at the current index + 1, and the right pointer at the end of the array
